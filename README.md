@@ -5,15 +5,15 @@ This bash script provides a snapshot of various system parameters, offering insi
 ## Usage
 1. Make sure you have the necessary permissions to execute the script:
 
-  bash
-  Copy code
-  chmod +x system_monitor.sh
+    bash
+    Copy code
+    chmod +x system_monitor.sh
 
-3. Run the script:
+2. Run the script:
  
-  bash
-  Copy code
-  ./system_monitor.sh
+    bash
+    Copy code
+    ./system_monitor.sh
 
 ## Output
 Upon execution, the script will display information on the following aspects:
