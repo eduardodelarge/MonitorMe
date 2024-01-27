@@ -16,20 +16,21 @@ This bash script provides a snapshot of various system parameters, offering insi
     ./system_monitor.sh
 
 ## Output
+
 Upon execution, the script will display information on the following aspects:
 
-Architecture: Details about the system architecture.
-CPU physical: The number of physical CPUs.
-vCPU: The number of virtual CPUs.
-Memory Usage: Current RAM usage in MB and percentage.
-Disk Usage: Disk space usage in GB and percentage.
-CPU load: Current CPU load percentage.
-Last boot: Timestamp of the last system boot.
-LVM use: Indicates if Logical Volume Management (LVM) is in use.
-Connexions TCP: Number of established TCP connections.
-User log: Number of users currently logged in.
-Network: IP address and MAC address.
-Sudo: Number of sudo commands executed.
+- **Architecture:** Details about the system architecture.
+- **CPU physical:** The number of physical CPUs.
+- **vCPU:** The number of virtual CPUs.
+- **Memory Usage:** Current RAM usage in MB and percentage.
+- **Disk Usage:** Disk space usage in GB and percentage.
+- **CPU load:** Current CPU load percentage.
+- **Last boot:** Timestamp of the last system boot.
+- **LVM use:** Indicates if Logical Volume Management (LVM) is in use.
+- **Connexions TCP:** Number of established TCP connections.
+- **User log:** Number of users currently logged in.
+- **Network:** IP address and MAC address.
+- **Sudo:** Number of sudo commands executed.
 Notes
 The script extracts information directly from various system files and commands.
 The results are displayed on the terminal or can be redirected to a log file.
