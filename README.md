@@ -7,13 +7,11 @@ This bash script provides a snapshot of various system parameters, offering insi
 
     bash
     Copy code
-    chmod +x system_monitor.sh
+    chmod +x monitor.sh
 
 2. Run the script:
  
-    bash
-    Copy code
-    ./system_monitor.sh
+    bash ./monitor.sh
 
 ## Output
 
